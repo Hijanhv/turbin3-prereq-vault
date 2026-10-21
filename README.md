@@ -1,6 +1,6 @@
 # pre-req-vault
 
-Turbin3 Q4 2026 Builders Cohort prerequisite, Part 1.
+Turbin3 Q4 2026 Builders Cohort prerequisite, Part 1. Starter code: [ShrinathNR/pre-req-vault](https://github.com/ShrinathNR/pre-req-vault). My changes are in the commits after `f9f7ff7`.
 
 An Anchor vault program with four instructions: `initialize`, `deposit`, `withdraw` and `close`. I extended `withdraw` with a CPI to the Turbin3 registration program (`initialize`), which records my GitHub username, `Hijanhv`.
 
