@@ -72,8 +72,8 @@ describe("pre-req-vault", () => {
     expect(vaultState.stateBump).to.equal(stateBump);
   });
 
-  it(" Deposilt 1 Sol in to the vault", async () => {
-    const depositAmount = 1 * LAMPORTS_PER_SOL;
+  it(" Deposit 0.2 Sol in to the vault", async () => {
+    const depositAmount = 0.2 * LAMPORTS_PER_SOL;
 
     const initialVaultBalance = await provider.connection.getBalance(vaultPda);
     const intialUserBalance = await provider.connection.getBalance(user);
@@ -97,8 +97,8 @@ describe("pre-req-vault", () => {
     expect(finalBalanceUser).to.be.lessThan(intialUserBalance - depositAmount);
   });
 
-  it(" Withdraw 0.5 Sol from the vault", async () => {
-    const withdrawAmount = 0.5 * LAMPORTS_PER_SOL;
+  it(" Withdraw 0.1 Sol from the vault", async () => {
+    const withdrawAmount = 0.1 * LAMPORTS_PER_SOL;
 
     const initialVaultBalance = await provider.connection.getBalance(vaultPda);
     const intialUserBalance = await provider.connection.getBalance(user);
