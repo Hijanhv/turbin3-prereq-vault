@@ -6,6 +6,8 @@ An Anchor vault program with four instructions: `initialize`, `deposit`, `withdr
 
 ![Architecture](docs/architecture.png)
 
+Video walkthrough of the diagram (under 3 minutes): https://youtu.be/3qmsAns-KWE
+
 ## Devnet
 
 | What | Address |
