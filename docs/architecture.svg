@@ -75,8 +75,8 @@
   <text x="815" y="282" font-size="13" fill="#0a8f5a">SOL in</text>
   <line x1="925" y1="345" x2="790" y2="350" stroke="#0a8f5a" stroke-width="2" marker-end="url(#g)"/>
   <text x="830" y="342" font-size="13" fill="#0a8f5a">SOL out</text>
-  <line x1="595" y1="398" x2="595" y2="555" stroke="#7a3fd1" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#p)"/>
-  <text x="608" y="520" font-size="14" fill="#7a3fd1" font-weight="700">CPI from withdraw</text>
+  <path d="M785,384 L860,384 L860,520 L700,520 L700,555" fill="none" stroke="#7a3fd1" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#p)"/>
+  <text x="712" y="545" font-size="14" fill="#7a3fd1" font-weight="700">CPI from withdraw</text>
   <line x1="810" y1="635" x2="925" y2="635" stroke="#7a3fd1" stroke-width="2" marker-end="url(#p)"/>
   <text x="826" y="625" font-size="13" fill="#7a3fd1">creates</text>
   <line x1="420" y1="480" x2="250" y2="557" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
